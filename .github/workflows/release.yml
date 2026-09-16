@@ -11,7 +11,7 @@ permissions:
 jobs:
   release:
     name: release
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     environment: release
     steps:
       - uses: actions/checkout@v6
