@@ -13,7 +13,7 @@ env:
 jobs:
   lint:
     name: lint
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: actions/checkout@v6
         with:
@@ -34,7 +34,7 @@ jobs:
 
   test-linux:
     name: test-linux
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: actions/checkout@v6
         with:
@@ -88,7 +88,7 @@ jobs:
 
   snapshot:
     name: snapshot
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-go@v6
