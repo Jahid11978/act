@@ -5,7 +5,7 @@ on:
 jobs:
   stale:
     name: Stale
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: actions/stale@v9
         with:
